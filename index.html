@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Password Generator</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Generate a <span>random password</span></h1>
+    <p>Never use an insecure password again.</p>
+    <label for="passLength">How many charecters? (Max 16)</label>
+    <input type="number" min="1" max="16" class="number-input" name="passLength" id="lengthInput">
+    <button class="pass-btn" id="passBtn">Generate password</button>
+    <div class="pass-container">
+      <p id="passOne">Random Password 1</p>
+      <p id="passTwo">Random Password 2</p>
+    </div>
+  </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
